@@ -20,6 +20,13 @@ This project contains basics codes of React.js.
     - The HTML Code
     - The Root Node
 
+6 - React JSx
+    - Coding JSX
+    - Expressions in JSX
+    - Inserting a Large Block of HTML
+    - One Top Level Element
+    - Elements Must be Closed
+
 ## Available Scripts
 
 In the project directory, you can run:
