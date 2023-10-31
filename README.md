@@ -1,6 +1,15 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains basics codes of React.js.
+1 - ES6
+2 - Classes
+    - Method in Classes
+    - Class Inheritance
+3 - Array Functions
+4 - Variables
+    - var
+    - let
+    - const
 
 ## Available Scripts
 
