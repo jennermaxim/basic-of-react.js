@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Car from "./App.js";
 
 const myelm = (
   <table>
@@ -36,4 +37,31 @@ const elmtop = (
 
 const elmtclose = <input type="text" />;
 
-ReactDOM.render(elmtclose, document.getElementById("root"));
+// class Car extends React.Component {
+//     constructor() {
+//       super();
+//       this.state = { color: "red" };
+//     }
+
+//   render() {
+//     return <h2>Hi, I am {this.props.color} a Car!</h2>;
+//     return <h2>I am a Car!</h2>;
+//   }
+// }
+
+class Garage extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Who lives in my Garage?</h1>
+        <Car />
+      </div>
+    );
+  }
+}
+
+function Car2() {
+  return <h2>Hi, I am also a Car!</h2>;
+}
+
+ReactDOM.render(<Garage />, document.getElementById("root"));

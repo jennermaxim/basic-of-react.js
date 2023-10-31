@@ -27,6 +27,14 @@ This project contains basics codes of React.js.
     - One Top Level Element
     - Elements Must be Closed
 
+7 - React Components
+    - Create a Class Component
+    - Create a Function Component
+    - Component Constructor
+    - Props
+    - Components in Components
+    - Components in Files
+
 ## Available Scripts
 
 In the project directory, you can run:
