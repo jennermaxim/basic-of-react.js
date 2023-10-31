@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project contains basics codes of React.js.
+
 1 - ES6
 
 2 - Classes
@@ -11,16 +12,19 @@ This project contains basics codes of React.js.
 3 - Array Functions
 
 4 - Variables
+
     - var
     - let
     - const
 
 5 - React Render HTML
+
     - The Render Function
     - The HTML Code
     - The Root Node
 
 6 - React JSx
+
     - Coding JSX
     - Expressions in JSX
     - Inserting a Large Block of HTML
@@ -28,6 +32,7 @@ This project contains basics codes of React.js.
     - Elements Must be Closed
 
 7 - React Components
+
     - Create a Class Component
     - Create a Function Component
     - Component Constructor
@@ -36,6 +41,7 @@ This project contains basics codes of React.js.
     - Components in Files
 
 8 - React Props
+
     - Pass Data
     - Props in the Constructor
 
