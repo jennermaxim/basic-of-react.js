@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Car from "./App.js";
+// import Car from "./App.js";
 
 const myelm = (
   <table>
@@ -49,12 +49,24 @@ const elmtclose = <input type="text" />;
 //   }
 // }
 
+class Car extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return <h2>I am a {this.props.brand.model}!</h2>;
+  }
+}
+const elmtprops = <Car brand="BMW" />;
+
 class Garage extends React.Component {
   render() {
+    // const carname = "BMW";
+    const carinfo = { name: "BMW", model: "Mustang" };
     return (
       <div>
         <h1>Who lives in my Garage?</h1>
-        <Car />
+        <Car brand={carinfo} />
       </div>
     );
   }

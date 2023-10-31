@@ -35,6 +35,10 @@ This project contains basics codes of React.js.
     - Components in Components
     - Components in Files
 
+8 - React Props
+    - Pass Data
+    - Props in the Constructor
+
 ## Available Scripts
 
 In the project directory, you can run:
