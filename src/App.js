@@ -1,10 +1,7 @@
 import React from "react";
-import ReactDom from "react-dom";
 
-class Car extends React.Component {
-  render() {
-    return <h2>Hi, I am a Car! from another File</h2>;
-  }
+function App() {
+  return <div>Hello World</div>;
 }
 
-export default Car;
+export default App;
